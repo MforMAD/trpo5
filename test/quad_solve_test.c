@@ -33,3 +33,18 @@ CTEST(distance_suite, two_roots_test) {
     ASSERT_DBL_NEAR(expected_result.x1, result.x1);
     ASSERT_DBL_NEAR(expected_result.x2, result.x2);
 }
+
+CTEST(distance_suite, no_real_roots_test) {
+    // Given
+    const float a = 7;
+    const float b = 2;
+    const float c = 1;
+
+    // When
+    const Quad_root result = quad_solve(a, b, c);
+
+    // Then
+    const Quad_root expected_result = {.count = ZERO_ROOTS};
+
+    ASSERT_EQUAL(expected_result.count, result.count);
+}
