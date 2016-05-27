@@ -11,4 +11,6 @@ typedef struct {
 	unsigned int count;
 } Quad_root;
 
+Quad_root quad_solve(float a, float b, float c);
+
 #endif
