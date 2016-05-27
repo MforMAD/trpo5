@@ -5,4 +5,10 @@
 #define WRONG_INPUT -1
 #define ZERO_ROOTS 0
 
+typedef struct {
+	float x1;
+	float x2;
+	unsigned int count;
+} Quad_root;
+
 #endif
