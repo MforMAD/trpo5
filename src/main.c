@@ -1,3 +1,5 @@
+#include "quadratic_solving.h"
+
 #include <stdio.h>
 #include <stdlib.h>
 
