@@ -1,0 +1,4 @@
+#ifndef QUADRATIC_SOLVING_H
+#define QUADRATIC_SOLVING_H
+
+#endif
